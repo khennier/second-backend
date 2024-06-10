@@ -1,21 +1,23 @@
 import React from 'react';
 import Navbar from './components/Header/Navbar/Navbar';
-import SearchBar from './components/Header/Searchbar/Searchbar';
-import HeroSection from './components/HeroSection/HeroSection.jsx';
-import {Features} from './components/Features/Features.jsx';
-import ProductList from './components/Products/ProductList/ProductList.jsx';
-import {AboutUs} from './components/AboutUs/AboutUs.jsx';
-import {QualitySection} from './components/QualitySection/QualitySection.jsx';
-import {ArticleList} from './components/PromotionalArticles/ArticleList/ArticleList.jsx';
-import {FooterLinks} from './components/Footer/FooterLinks/FooterLinks.jsx';
-import {FooterContact} from './components/Footer/FooterContact/FooterContact.jsx';
+import Searchbar from './components/Header/Searchbar/Searchbar';
+import HeroSection from './components/HeroSection/HeroSection';
+import Features from './components/Features/Features';
+import ProductList from './components/Products/ProductList/ProductList';
+import AboutUs from './components/AboutUs/AboutUs';
+import QualitySection from './components/QualitySection/QualitySection';
+import ArticleList from './components/PromotionalArticles/ArticleList/ArticleList';
+import FooterLinks from './components/Footer/FooterLinks/FooterLinks';
+import FooterContact from './components/Footer/FooterContact/FooterContact';
 import products from './products'; // Importa los productos
+
+import './App.css';
 
 const App = () => (
   <div className="app">
     <header>
       <Navbar />
-      <SearchBar />
+      <Searchbar />
     </header>
     <HeroSection />
     <Features />

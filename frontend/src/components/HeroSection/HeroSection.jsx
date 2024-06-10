@@ -1,4 +1,5 @@
 import React from 'react';
+import './HeroSection.css'
 
 const HeroSection = () => (
   <div className="hero-section">

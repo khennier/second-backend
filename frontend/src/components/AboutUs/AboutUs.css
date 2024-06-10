@@ -1,0 +1,15 @@
+.about-us {
+    text-align: center;
+    padding: 40px 20px;
+  }
+  
+  .about-us img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  .about-us h2 {
+    margin-bottom: 20px;
+  }
+  

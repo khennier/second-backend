@@ -1,0 +1,23 @@
+.hero-section {
+    background-image: url('../Assets/vlcsnap-2024-05-28-09h06m03s084\ 1.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+  }
+  
+  .hero-section h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .hero-section button {
+    padding: 10px 20px;
+    background-color: #FF4136;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  

@@ -1,0 +1,25 @@
+.article-list {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+  }
+  
+  .article-item {
+    max-width: 300px;
+    text-align: center;
+  }
+  
+  .article-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .article-item h3 {
+    margin: 10px 0;
+  }
+  
+  .article-item p {
+    color: #666;
+  }
+  

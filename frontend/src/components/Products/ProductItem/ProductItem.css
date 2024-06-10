@@ -1,0 +1,32 @@
+.product-item {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    margin: 10px;
+    border-radius: 4px;
+  }
+  
+  .product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  
+  .product-item h3 {
+    margin: 10px 0;
+  }
+  
+  .product-item p {
+    color: #666;
+  }
+  
+  .product-item a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #FF4136;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+  }
+  

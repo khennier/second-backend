@@ -1,0 +1,21 @@
+.quality-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #f8f8f8;
+  }
+  
+  .quality-section img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .quality-section div {
+    max-width: 500px;
+  }
+  
+  .quality-section h2 {
+    margin-bottom: 20px;
+  }
+  

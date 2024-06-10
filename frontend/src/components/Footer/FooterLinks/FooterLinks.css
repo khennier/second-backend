@@ -1,0 +1,14 @@
+.footer-links {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #001f3f;
+    color: white;
+  }
+  
+  .footer-links a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+  }
+  
