@@ -1,23 +1,36 @@
+/* HeroSection.css */
 .hero-section {
-    background-image: url('../Assets/vlcsnap-2024-05-28-09h06m03s084\ 1.png');
-    background-size: cover;
-    background-position: center;
-    color: white;
-    text-align: center;
-    padding: 100px 20px;
-  }
-  
-  .hero-section h1 {
-    font-size: 3em;
-    margin-bottom: 20px;
-  }
-  
-  .hero-section button {
-    padding: 10px 20px;
-    background-color: #FF4136;
-    color: white;
-    border: none;
-    cursor: pointer;
-    border-radius: 4px;
-  }
-  
+  background-image: url('../Assets/vlcsnap-2024-05-28-09h06m03s084\ 1.png');
+  background-size: cover;
+  background-position: center;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Alinea el contenido al lado izquierdo */
+  padding: 100px 20px;
+  height: 50vh; /* Ajusta la altura de la sección según sea necesario */
+}
+
+.hero-content {
+  max-width: 600px; /* Ajusta el ancho máximo del contenido */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.hero-content button {
+  padding: 10px 20px;
+  background-color: #FF4136;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+}

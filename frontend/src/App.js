@@ -17,7 +17,6 @@ const App = () => (
   <div className="app">
     <header>
       <Navbar />
-      <Searchbar />
     </header>
     <HeroSection />
     <Features />

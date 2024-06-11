@@ -1,14 +1,65 @@
+/* Navbar.css */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
-  }
-  
-  .navbar a {
-    color: white;
-    text-decoration: none;
-    margin: 0 15px;
-    font-size: 1.2em;
-  }
-  
+  width: 100%;
+  background-color: #1c3d72;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(85, 45, 45, 0.1);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 60px;
+}
+
+.navbar-logo a {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.navbar-menu {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-item {
+  margin-left: 20px;
+}
+
+.navbar-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-link:hover {
+  color: #ff4136;
+}
+
+.navbar-icons {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-icon {
+  color: #fff;
+  margin-left: 15px;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-icon:hover {
+  color: #ff4136;
+}
