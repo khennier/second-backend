@@ -1,6 +1,5 @@
 import React from 'react';
 import Navbar from './components/Header/Navbar/Navbar';
-import Searchbar from './components/Header/Searchbar/Searchbar';
 import HeroSection from './components/HeroSection/HeroSection';
 import Features from './components/Features/Features';
 import ProductList from './components/Products/ProductList/ProductList';

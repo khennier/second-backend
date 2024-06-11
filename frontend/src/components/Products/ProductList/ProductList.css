@@ -1,0 +1,26 @@
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Espacio entre los productos */
+    justify-content: center; /* Centrar los productos horizontalmente */
+    padding: 20px;
+  }
+  
+  .product-item {
+    flex: 1 1 calc(33.333% - 40px); /* Tres productos por fila */
+    box-sizing: border-box;
+    margin: 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .product-item {
+      flex: 1 1 calc(50% - 40px); /* Dos productos por fila en pantallas más pequeñas */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .product-item {
+      flex: 1 1 100%; /* Un producto por fila en pantallas muy pequeñas */
+    }
+  }
+  
