@@ -20,7 +20,7 @@ const App = () => (
     <HeroSection />
     <Features />
     <section id="products">
-      <h2>Our Products</h2>
+      <h2>Our Product</h2>
       <ProductList products={products} />
     </section>
     <AboutUs />
